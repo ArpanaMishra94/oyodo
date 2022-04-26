@@ -1,0 +1,308 @@
+.sectionOneLeft {
+   padding-right: 10px;
+}
+
+.sectionOneLeft-header {
+   margin-bottom: 12rem;
+}
+
+.header-title {
+    padding: 15px 0px 10px 0px;
+}
+
+.header-title p {
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+.header-paraOne {
+    padding: 10px 10px 10px 0px;
+}
+
+.header-paraOne p {
+    font-size: 3rem;
+    font-family: unset;
+}
+
+.header-paraTwo {
+    padding: 10px 30px 10px 0px;
+    font-size: 2rem;
+    font-weight: 400;
+    word-spacing: 2px;
+    line-height: 30px;
+} 
+
+.header-paraThree {
+    padding: 10px 30px 0px 0px;
+    font-size: 2rem;
+    font-weight: 400;
+    word-spacing: 2px;
+    line-height: 30px;
+}
+
+.quote {
+    float: right;
+    font-size: 2.5rem;
+    width: 27vw;
+    font-style: italic;
+    color: #869698;
+    padding: 25px 2px 11px 25px;
+    margin-left: 8rem;
+    word-spacing: 10px;
+    line-height: 30px;
+}
+
+.name {
+    float: right;
+    font-style: normal;
+    color: black;
+    font-size: 2rem;
+    word-spacing: 5px;
+}
+
+.footer-title h1 {
+    margin: 40px auto;
+    text-align: center;
+    font-size: 4rem;
+    position: relative;
+}
+
+.footer-title h1::before {
+    content: "";
+    display: block;
+    width: 20vw;
+    height: 5px;
+    background: #e8e6e7;
+    position: absolute;
+    left: 0;
+    top: 50%;
+}
+
+.footer-title h1::after {
+    content: "";
+    display: block;
+    width: 20vw;
+    height: 5px;
+    background: #e8e6e7;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+
+.footer-item {
+    display: flex;
+    margin-top: 2rem;
+}
+
+.footer-img img {
+    height: 20vh;
+    width: 10vw;
+    object-fit: cover;
+    object-position: right;
+    border-radius: 1rem;
+}
+
+.footer-content {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.footer-content-title h1 {
+    font-size: 3.5rem;
+    font-family: revert;
+    color: #1cd6ce;
+}
+
+.footer-content-para p {
+    font-size: 2rem;
+    margin-top: 1rem;
+    word-spacing: 5px;
+    line-height: 25px;
+}
+
+@media(max-width: 1100px) {
+
+    .header-paraOne p {
+        font-size: 4rem;
+        font-family: unset;
+    }
+    
+    .header-paraTwo {
+        padding: 10px 30px 10px 0px;
+        font-size: 3rem;
+        font-weight: 400;
+        word-spacing: 10px;
+        line-height: 50px;
+    } 
+    
+    .header-paraThree {
+        font-size: 3rem;
+        font-weight: 400;
+        word-spacing: 10px;
+        line-height: 50px;
+    }
+    
+    .quote {
+        float: right;
+        font-size: 2.5rem;
+        width: 27vw;
+        font-style: italic;
+        color: #869698;
+        padding: 25px 2px 11px 25px;
+        margin-left: 8rem;
+        word-spacing: 10px;
+        line-height: 50px;
+    }
+    
+    .name {
+        float: right;
+        font-style: normal;
+        color: black;
+        font-size: 2rem;
+        word-spacing: 5px;
+    }
+
+    .footer-title h1 {
+        font-size: 4rem;
+    }
+
+    .footer-item {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .footer-img img {
+        height: 40vh;
+        width: 92vw;
+        object-fit: cover;
+        object-position: right;
+        border-radius: 1rem;
+    }
+    
+    .footer-content {
+        margin-left: 2rem;
+    }
+    
+    .footer-content-title h1 {
+        font-size: 5rem;
+        font-family: revert;
+        color: #1cd6ce;
+        padding-top: 2px;
+    }
+    
+    .footer-content-para p {
+        font-size: 4rem;
+        margin-top: 2rem;
+        word-spacing: 10px;
+        line-height: 50px;
+        margin-right: 1rem;
+    }
+}
+
+@media(max-width: 800px) {
+
+    .header-title p {
+        font-weight: bold;
+        font-size: 3rem;
+    }
+
+    .header-paraOne p {
+        font-size: 2.7rem;
+        font-family: unset;
+    }
+    
+    .header-paraTwo {
+        padding: 10px 30px 10px 0px;
+        font-size: 2rem;
+        font-weight: 400;
+        word-spacing: 2px;
+        line-height: 30px;
+    } 
+    
+    .header-paraThree {
+        padding: 10px 30px 0px 0px;
+        font-size: 1.5rem;
+        font-weight: 400;
+        word-spacing: 1.5px;
+        line-height: 25px;
+    }
+
+    .quote {
+        float: right;
+        font-size: 2rem;
+        width: 40vw;
+        font-style: italic;
+        color: #869698;
+        padding: 25px 2px 11px 0px;
+        margin-left: 3rem;
+        word-spacing: 7px;
+        line-height: 20px;
+    }
+
+    .footer-title h1::before {
+        content: "";
+        display: block;
+        width: 10vw;
+        height: 5px;
+        background: #e8e6e7;
+        position: absolute;
+        left: 0;
+        top: 50%;
+    }
+    
+    .footer-title h1::after {
+        content: "";
+        display: block;
+        width: 10vw;
+        height: 5px;
+        background: #e8e6e7;
+        position: absolute;
+        right: 0;
+        top: 50%;
+    }
+
+    .footer-title h1 {
+        font-size: 2.5rem;
+    }
+
+    .footer-item {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer-img img {
+        height: 40vh;
+        width: 88vw;
+        object-fit: cover;
+        object-position: right;
+        border-radius: 1rem;
+    }
+    
+    .footer-content {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    
+    .footer-content-title h1 {
+        font-size: 3rem;
+        font-family: revert;
+        color: #1cd6ce;
+    }
+    
+    .footer-content-para p {
+        font-size: 2rem;
+        margin-top: 1rem;
+        word-spacing: 5px;
+        line-height: 25px;
+    }
+
+    .name {
+        float: right;
+        font-style: normal;
+        color: black;
+        font-size: 1.5rem;
+        word-spacing: 3px;
+    }
+}

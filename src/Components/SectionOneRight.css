@@ -1,0 +1,193 @@
+.sectionOneSidebar {
+    display: grid;
+    grid-template-rows: 1fr 1.5fr 1.5fr 1.5fr;
+    height: 90%;
+}
+
+.submenu {
+    grid-row: 1/2;
+    background-color: white;
+    border: 2px solid gray;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+    width: 100%;
+}
+
+.submenu h1 {
+    margin: 1rem auto;
+    text-align: center;
+    grid-row: 1/2;
+    font-size: 2rem;
+}
+
+.submenu-items {
+    grid-row: 2/3;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.submenu-items li {
+    flex: 1;
+    font-size: 1.9rem;
+    padding-left: 2rem;
+    color: #1ed6ca;
+    display: flex;
+    align-items: center;
+}
+
+.submenu-items li:hover {
+    background-color: #1ed6ca;
+    cursor: pointer;
+    color: white;
+}
+
+.profile {
+    grid-row: 2/3;
+    background-color: #e9e7e8;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.profile-images {
+    background-image:  url("../Images/city.jpg");
+    background-size: cover;
+    height: 20vh;
+    width: 100%;
+    object-fit: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    grid-row: 1/2;
+}
+
+.personImg {
+    border-radius: 50%;
+    object-fit: cover;
+    height: 90px;
+    width: 90px;
+    border: .5rem solid white;
+    background-position: top center;
+}
+
+.profile-info {
+    grid-row: 2/3;
+    display: grid;
+    grid-template-rows: 3rem 1fr 1fr 1fr 2rem;
+}
+
+.profile-info-row1 {
+    grid-row: 2/3;
+}
+
+.profile-info-row2 {
+    grid-row: 3/4;
+}
+
+.profile-info-row3 {
+    grid-row: 4/5;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: 1fr 2fr 0.5fr 2fr 1fr;
+    align-items: center;
+}
+
+.info h4 {
+    grid-column: 2/3;
+    font-size: 1.6rem;
+}
+
+.info p {
+    grid-column: 4/5;
+    font-size: 1.3rem;
+}
+
+.message {
+    grid-row: 3/4;
+    background-color: #d7d3d2;
+    padding: 20px;
+}
+
+.message h3 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    margin:  10px auto;
+    text-align: center;
+}
+
+.message p {
+    font-size: medium;
+    color: #9a9899;
+    margin-bottom: 4px;
+}
+
+input {
+    width: 100%;
+    margin-bottom: 2rem;
+    border: none;
+    text-align: left;
+    outline: none;
+}
+
+.input-subject {
+    height: 2rem;
+    line-height: 2rem;
+    padding-bottom: 19px;
+}
+
+.input-message {
+    height: 3rem;
+    line-height: 2rem;
+    padding-bottom: 100px;
+}
+
+button {
+   width: 100%;
+   border: none;
+   height: 4rem;
+   background-color: #19bdb2;
+   border-radius: 5px;
+   color: white;
+   font-size: medium;
+}
+
+.location {
+    grid-row: 4/5;
+    background-color: #e9e7e8;
+}
+
+.location h3 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    margin:  10px auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.location img {
+    height: 20vh;
+    width: 100%;
+    object-fit: cover;
+    padding-bottom: 10px;
+}
+
+.location p {
+    padding: 5px 0px 0px 10px;
+    font-size: 1.5rem;
+}
+
+.location .townName {
+    padding: 2px 0px 0px 10px;
+    font-size: 1.7rem;
+}
+
+@media(max-width: 1100px) {
+    .sectionOneSidebar {
+        height: 100%;
+    }
+}

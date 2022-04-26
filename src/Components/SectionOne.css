@@ -1,0 +1,36 @@
+.sectionOne {
+    display: grid;
+    grid-template-columns: 20rem 1fr 20rem;
+    justify-content: center;
+    padding-top: 5rem;
+}
+
+.sectionOne-container {
+    display: flex;
+    grid-column: 2/3;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+.sectionOne-left {
+   flex: 4;
+}
+
+.sectionOne-right {
+    flex: 1;
+}
+
+@media(max-width: 1500px) {
+    .sectionOne {
+        display: grid;
+        grid-template-columns: 1rem 1fr 1rem;
+        justify-content: center;
+        padding-top: 2rem;
+    }
+
+    .sectionOne-container {
+        display: flex;
+        flex-direction: column;
+    }
+}

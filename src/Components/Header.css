@@ -1,0 +1,83 @@
+html {
+    font-size: 62.5%;
+  }
+
+.header {
+    background-color: #8198a0;
+    height: 30vh;
+    align-items: center;
+    grid-template-columns: 20rem 3fr 1fr;
+    display: grid;
+}
+
+.header-content {
+    grid-column: 2/3;
+    padding: 0 0 0 0;
+}
+
+.header-content p {
+    color: white;
+    font-weight: 500;
+    font-size: 2.5vw;
+}
+
+.header-content p::selection {
+    background-color: #edae5c;
+}
+
+@media(max-width: 1080px) {
+    .header-content p {
+        font-size: 3.5rem;
+    }
+
+    .header-content {
+        width: 88vw;
+        grid-column: 2;
+    }
+
+    .header {
+        display: grid;
+        grid-template-columns: 1rem 1fr 1fr;
+        align-items: center;
+    }
+}
+
+@media(max-width: 800px) {
+    .header-content p {
+        font-size: 3rem;
+    }
+
+    .header-content {
+        width: 80vw;
+        height: 25vh;
+        grid-column: 2;
+        display: flex;
+        align-items: center;
+    }
+
+    .header {
+        display: grid;
+        grid-template-columns: 1rem 1fr;
+    }
+}
+
+@media(max-width: 520px) {
+    .header-content p {
+        font-size: 2rem;
+    }
+    
+    .header-content {
+        width: 85vw;
+        height: 30vh;
+        grid-column: 2;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .header {
+        display: grid;
+        grid-template-columns: 1rem 1fr;
+    }
+}
+
