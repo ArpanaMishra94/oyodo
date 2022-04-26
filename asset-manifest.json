@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/oyodo/static/css/main.66f0c810.css",
+    "main.js": "/oyodo/static/js/main.fa6537b2.js",
+    "static/js/787.835a3873.chunk.js": "/oyodo/static/js/787.835a3873.chunk.js",
+    "static/media/salad2.jpg": "/oyodo/static/media/salad2.f229e6990b62594b2a4d.jpg",
+    "static/media/salad1.jpg": "/oyodo/static/media/salad1.ddff9c949af5a5ceb8a3.jpg",
+    "static/media/person.jpeg": "/oyodo/static/media/person.1180a34db654feb0e850.jpeg",
+    "static/media/burger.jpeg": "/oyodo/static/media/burger.0d8e8b2cdaff592cfb1c.jpeg",
+    "static/media/menu.jpg": "/oyodo/static/media/menu.f5adc930f818190162c2.jpg",
+    "static/media/city.jpg": "/oyodo/static/media/city.7e183e7007ba476f7159.jpg",
+    "static/media/steaks.jpeg": "/oyodo/static/media/steaks.4a5dcd947591435e6a1b.jpeg",
+    "static/media/juice.jpg": "/oyodo/static/media/juice.fa884aa146ab3c722dcc.jpg",
+    "static/media/map.jpg": "/oyodo/static/media/map.0cf1df08eb22fe137ad8.jpg",
+    "static/media/broccoli.jpeg": "/oyodo/static/media/broccoli.4c2712ea30a0870c63c8.jpeg",
+    "index.html": "/oyodo/index.html",
+    "main.66f0c810.css.map": "/oyodo/static/css/main.66f0c810.css.map",
+    "main.fa6537b2.js.map": "/oyodo/static/js/main.fa6537b2.js.map",
+    "787.835a3873.chunk.js.map": "/oyodo/static/js/787.835a3873.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.66f0c810.css",
+    "static/js/main.fa6537b2.js"
+  ]
+}
