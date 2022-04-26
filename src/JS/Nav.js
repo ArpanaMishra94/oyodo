@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import "./Nav.css";
+import "../CSS/Nav.css";
 import {GiHamburgerMenu} from "react-icons/gi";
 
 const Nav = () => {

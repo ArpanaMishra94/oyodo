@@ -1,7 +1,7 @@
 import React from 'react'
-import './SectionOneLeft.css'
-import salad1 from '../Images/salad1.jpg'
-import salad2 from '../Images/salad2.jpg'
+import '../CSS/SectionOneLeft.css'
+import salad1 from '../images/salad1.jpg'
+import salad2 from '../images/salad2.jpg'
 
 function SectionOneLeft() {
     return (

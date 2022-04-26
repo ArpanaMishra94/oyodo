@@ -1,5 +1,5 @@
 import React from 'react'
-import './SectionOne.css'
+import '../CSS/SectionOne.css'
 import SectionOneLeft from './SectionOneLeft'
 import SectionOneRight from './SectionOneRight'
 

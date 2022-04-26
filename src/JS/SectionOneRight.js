@@ -1,7 +1,7 @@
 import React from 'react'
-import './SectionOneRight.css';
-import person from '../Images/person.jpeg'
-import map from '../Images/map.jpg'
+import '../CSS/SectionOneRight.css';
+import person from '../images/person.jpeg'
+import map from '../images/map.jpg'
 
 function SectionOneRight() {
     return (

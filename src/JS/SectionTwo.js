@@ -1,10 +1,10 @@
 import React from 'react'
-import './SectionTwo.css';
-import broccoli from '../Images/broccoli.jpeg'
-import steaks from '../Images/steaks.jpeg'
-import menu from '../Images/menu.jpg'
-import burger from '../Images/burger.jpeg'
-import juice from '../Images/juice.jpg'
+import '../CSS/SectionTwo.css';
+import broccoli from '../images/broccoli.jpeg'
+import steaks from '../images/steaks.jpeg'
+import menu from '../images/menu.jpg'
+import burger from '../images/burger.jpeg'
+import juice from '../images/juice.jpg'
 
 function SectionTwo() {
     return (

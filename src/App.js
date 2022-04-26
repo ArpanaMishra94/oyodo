@@ -1,9 +1,9 @@
 import './App.css';
-import Nav from './Components/Nav';
-import Header from './Components/Header';
-import SectionOne from './Components/SectionOne';
-import SectionTwo from './Components/SectionTwo';
-import Footer from './Components/Footer';
+import Nav from './JS/Nav';
+import Header from './JS/Header';
+import SectionOne from './JS/SectionOne';
+import SectionTwo from './JS/SectionTwo';
+import Footer from './JS/Footer';
 
 function App() {
     return (
